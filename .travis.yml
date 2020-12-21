@@ -6,7 +6,7 @@ dist: xenial
 language: java
 jdk:
   - openjdk11
-
+install: true
 script:
   
   - mvn clean install verify
